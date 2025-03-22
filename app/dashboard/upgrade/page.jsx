@@ -8,7 +8,7 @@ function Upgrade() {
     const {user}=useUser();
 
   return (
-    <div className='p-10'>
+    <div className='p-10 min-h-screen bg-white'>
         <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
   <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-center md:gap-8">
   
@@ -21,7 +21,8 @@ function Upgrade() {
         </h2>
 
         <p className="mt-2 sm:mt-4">
-          <strong className="text-3xl font-bold text-gray-900 sm:text-4xl"> {item.price}$ </strong>
+          <strong className="text-3xl font-bold text-gray-900 sm:text-4xl"> <p>&#8377; {item.price} </p>
+          </strong>
 
           <span className="text-sm font-medium text-gray-700">/{item.duration}</span>
         </p>
@@ -85,7 +86,7 @@ function Upgrade() {
             <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
           </svg>
 
-          <span className="text-gray-700"> App Ak.Com App Access </span>
+          <span className="text-gray-700"> Ai Form Builder Access </span>
         </li>
       </ul>
 

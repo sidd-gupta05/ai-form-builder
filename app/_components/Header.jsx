@@ -13,7 +13,7 @@ function Header() {
     console.log(path)
   },[])
   return !path.includes('aiform')&&(
-    <div className='p-3 px-5 border-b shadow-sm'>
+    <div className='p-5 border-b shadow-sm'>
         <div className='flex items-center justify-between'>
             <Image src={'/logo.svg'} 
             width={180} height={50} alt='logo'/>

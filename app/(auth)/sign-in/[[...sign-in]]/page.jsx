@@ -32,8 +32,9 @@ export default function Page() {
         </h2>
 
         <p className="mt-4 leading-relaxed text-white/90">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam dolorum aliquam,
-          quibusdam aperiam voluptatum.
+        Our AI Form Builder makes form creation effortless, whether for surveys, registrations, or data collection. With drag-and-drop functionality, conditional logic, real-time validation, and seamless integrations, you can automate workflows and enhance user experience—no coding required.
+        Start building smarter forms today! 🚀
+
         </p>
       </div>
     </section>
@@ -66,12 +67,14 @@ export default function Page() {
           </h1>
 
           <p className="mt-4 leading-relaxed text-gray-500">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam dolorum aliquam,
-            quibusdam aperiam voluptatum.
+          Our AI Form Builder makes form creation effortless, whether for surveys, registrations, or data collection. With drag-and-drop functionality, conditional logic, real-time validation, and seamless integrations, you can automate workflows and enhance user experience—no coding required.
+          Start building smarter forms today! 🚀
+
           </p>
         </div>
-
+        <div className="mt-5">
         <SignIn path="/sign-in" />
+        </div>
       </div>
     </main>
   </div>

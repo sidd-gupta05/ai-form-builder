@@ -114,9 +114,9 @@ const SideNav = () => {
           ))}
         </div>
         <div className="mt-48 p-4 min-h-screen bg-white">
-          <Button className="w-full" onClick={() => setOpenDialog(true)}>
+          {/* <Button className="w-full" onClick={() => setOpenDialog(true)}>
             + Create Form
-          </Button>
+          </Button> */}
           <div className="my-5">
             <Progress value={PercFileCreated} />
             <h2 className="text-sm mt-2 text-gray-600">
